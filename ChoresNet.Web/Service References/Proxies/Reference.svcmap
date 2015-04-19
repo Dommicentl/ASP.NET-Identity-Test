@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="952e8888-abd0-410d-b7f5-0aa7e48d58e6" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies>
+      <ReferencedAssembly AssemblyName="ChoresNet.Common" />
+    </ReferencedAssemblies>
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:64031/AuthenticationService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AuthenticationService3.xsd" MetadataType="Schema" ID="0f32f618-71d1-472b-9279-fc13f6dc4a31" SourceId="1" SourceUrl="http://localhost:64031/AuthenticationService.svc?xsd=xsd3" />
+    <MetadataFile FileName="AuthenticationService2.xsd" MetadataType="Schema" ID="0b30ba9b-428f-4316-bc00-b509461e1f5c" SourceId="1" SourceUrl="http://localhost:64031/AuthenticationService.svc?xsd=xsd0" />
+    <MetadataFile FileName="AuthenticationService1.xsd" MetadataType="Schema" ID="949ffd43-e6b2-4f88-b101-214314cc9a95" SourceId="1" SourceUrl="http://localhost:64031/AuthenticationService.svc?xsd=xsd1" />
+    <MetadataFile FileName="AuthenticationService.wsdl" MetadataType="Wsdl" ID="3aa49ab2-5d5b-4a9c-9034-0b47167b6164" SourceId="1" SourceUrl="http://localhost:64031/AuthenticationService.svc?wsdl" />
+    <MetadataFile FileName="AuthenticationService.disco" MetadataType="Disco" ID="5ba2ad10-f679-4f82-99e6-2920200e4894" SourceId="1" SourceUrl="http://localhost:64031/AuthenticationService.svc?disco" />
+    <MetadataFile FileName="AuthenticationService.xsd" MetadataType="Schema" ID="c5be974c-e545-48ae-b1c0-6f40545dc474" SourceId="1" SourceUrl="http://localhost:64031/AuthenticationService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
